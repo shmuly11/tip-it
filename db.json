@@ -1,28 +1,92 @@
 {
-    "tips": [
-        {
-            "id": 1,
-            "restaurant": "Apple Bee's",
-            "total": 120,
-            "tip": 20,
-            "percentage": 20,
-            "experienceRating": 8
-        },
-        {
-            "id": 2,
-            "restaurant": "John & Molly's",
-            "total": 59,
-            "tip": 9,
-            "percentage": 18,
-            "experienceRating": 9
-        },
-        {
-            "id": 3,
-            "restaurant": "Gallagher's",
-            "total": 270,
-            "tip": 45,
-            "percentage": 20,
-            "experienceRating": 10
-        }
-    ]
+  "tips": [
+    {
+      "id": 1,
+      "restaurant": "Apple Bee's",
+      "total": 120,
+      "tip": 20,
+      "percentage": 20,
+      "experienceRating": 8
+    },
+    {
+      "id": 2,
+      "restaurant": "John & Molly's",
+      "total": 59,
+      "tip": 9,
+      "percentage": 18,
+      "experienceRating": 9
+    },
+    {
+      "id": 3,
+      "restaurant": "Gallagher's",
+      "total": 270,
+      "tip": 45,
+      "percentage": 20,
+      "experienceRating": 10
+    },
+    {
+      "restaurant": "coolio",
+      "total": 165,
+      "percentage": 10,
+      "tip": 15,
+      "experienceRating": 9,
+      "id": 4
+    },
+    {
+      "restaurant": "pizzashop",
+      "total": 171.68,
+      "percentage": 16,
+      "tip": 23.68,
+      "experienceRating": 4,
+      "id": 5
+    },
+    {
+      "restaurant": "Fancy Place",
+      "total": 1542.5,
+      "percentage": 25,
+      "tip": 308.5,
+      "experienceRating": 9,
+      "id": 6
+    },
+    {
+      "restaurant": "fancier place",
+      "total": 2233.63,
+      "percentage": 19,
+      "tip": 356.63,
+      "experienceRating": 1,
+      "id": 7
+    },
+    {
+      "restaurant": "Doma",
+      "total": 391,
+      "percentage": 15,
+      "tip": 51,
+      "experienceRating": 4,
+      "id": 8
+    },
+    {
+      "restaurant": "Bassy's Bistro",
+      "total": 885,
+      "percentage": 18,
+      "tip": 135,
+      "experienceRating": 7,
+      "id": 9
+    },
+    {
+      "restaurant": "Shmuly's Fried Chicken",
+      "total": 114,
+      "percentage": 100,
+      "tip": 57,
+      "experienceRating": 25,
+      "id": 10
+    },
+    {
+      "restaurant": "Isaac's Bamba",
+      "total": 5.1,
+      "percentage": 2,
+      "tip": 0.1,
+      "experienceRating": 5,
+      "id": 11
+    }
+  ]
 }

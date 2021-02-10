@@ -34,49 +34,25 @@
     <div class="flex three demo">
 
         <div id="all-tips" class="scroll">
-            <div class="item card">
-                <header>
-                    <h3>Apple Bee's <span>| 5.0 / 10.0</span></h3>
-                </header>
-                <p>Total w/o Tip: <span>$100</span></p>
-                <p>Tip Amount <span>(20%)</span>: <span>$20</span></p>
-                <hr>
-                <p>Total: <span>$120</span></p>
-            </div>
-            <div class="item card">
-                <header>
-                    <h3>Apple Bee's <span>| 7.0 / 10.0</span></h3>
-                </header>
-                <p>Total w/o Tip: <span>$100</span></p>
-                <p>Tip Amount: <span>$20</span> <span>(20%)</span></p>
-                <p>Total Amount + Tip: <span>$120</span></p>
-            </div>
-            <div class="item card">
-                <header>
-                    <h3>Apple Bee's <span>| 8.0 / 10.0</span></h3>
-                </header>
-                <p>Total w/o Tip: <span>$100</span></p>
-                <p>Tip Amount: <span>$20</span> <span>(20%)</span></p>
-                <p>Total Amount + Tip: <span>$120</span></p>
-            </div>
+
         </div>
         <div id="create-tip" class="half">
             <form>
                 <fieldset class="flex two">
                     <label>Restaurant Name
-                        <input type="text">
+                        <input type="text" name="restaurant">
                     </label>
                     <label>What do you rate your experience?
-                        <input type="number">
+                        <input type="number" name="experienceRating">
                     </label>
 
                 </fieldset>
                 <fieldset class="flex two">
                     <label>Total Bill Amount
-                        <input type="number">
+                        <input type="number" name="total">
                     </label>
                     <label>What % do you want to tip?
-                        <input type="number">
+                        <input type="number" name="percentage">
                     </label>
                 </fieldset>
                 <input type="submit">
