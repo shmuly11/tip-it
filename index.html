@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tipping Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <script src="index.js" defer></script>
+
+</head>
+
+<body id="body">
+    <header>
+        <h1>
+            Tip it! 🐮
+        </h1>
+    </header>
+    <div class="flex four demo">
+        <label>Sort by...
+            <select>
+                <option>Select an option</option>
+                <option>Rating</option>
+                <option>Total w/o Tip</option>
+                <option>Total Amount + Tip</option>
+                <option>Percentage %</option>
+                <option>Tip Amount</option>
+            </select>
+        </label>
+    </div>
+    <div class="flex three demo">
+
+        <div id="all-tips" class="scroll">
+            <div class="item card">
+                <header>
+                    <h3>Apple Bee's <span>| 5.0 / 10.0</span></h3>
+                </header>
+                <p>Total w/o Tip: <span>$100</span></p>
+                <p>Tip Amount <span>(20%)</span>: <span>$20</span></p>
+                <hr>
+                <p>Total: <span>$120</span></p>
+            </div>
+            <div class="item card">
+                <header>
+                    <h3>Apple Bee's <span>| 7.0 / 10.0</span></h3>
+                </header>
+                <p>Total w/o Tip: <span>$100</span></p>
+                <p>Tip Amount: <span>$20</span> <span>(20%)</span></p>
+                <p>Total Amount + Tip: <span>$120</span></p>
+            </div>
+            <div class="item card">
+                <header>
+                    <h3>Apple Bee's <span>| 8.0 / 10.0</span></h3>
+                </header>
+                <p>Total w/o Tip: <span>$100</span></p>
+                <p>Tip Amount: <span>$20</span> <span>(20%)</span></p>
+                <p>Total Amount + Tip: <span>$120</span></p>
+            </div>
+        </div>
+        <div id="create-tip" class="half">
+            <form>
+                <fieldset class="flex two">
+                    <label>Restaurant Name
+                        <input type="text">
+                    </label>
+                    <label>What do you rate your experience?
+                        <input type="number">
+                    </label>
+
+                </fieldset>
+                <fieldset class="flex two">
+                    <label>Total Bill Amount
+                        <input type="number">
+                    </label>
+                    <label>What % do you want to tip?
+                        <input type="number">
+                    </label>
+                </fieldset>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

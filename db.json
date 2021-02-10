@@ -1,0 +1,28 @@
+{
+    "tips": [
+        {
+            "id": 1,
+            "restaurant": "Apple Bee's",
+            "total": 120,
+            "tip": 20,
+            "percentage": 20,
+            "experienceRating": 8
+        },
+        {
+            "id": 2,
+            "restaurant": "John & Molly's",
+            "total": 59,
+            "tip": 9,
+            "percentage": 18,
+            "experienceRating": 9
+        },
+        {
+            "id": 3,
+            "restaurant": "Gallagher's",
+            "total": 270,
+            "tip": 45,
+            "percentage": 20,
+            "experienceRating": 10
+        }
+    ]
+}
